@@ -152,90 +152,90 @@ list of all 69 scanners included in the Security Audit Tool, organized by their 
 
 ### WINDOWS
 
-ActiveDirectoryUserEnumerationScanner - Active Directory User Enumeration
-AnonSmbShareChecker - Anonymous SMB Share Checker
-BlueKeepStatusScanner - BlueKeep Vulnerability Scanner
-KerberosPort88Scanner - Kerberos Port 88 Scanner
-MS17-010Scanner - EternalBlue (MS17-010) Scanner
-MsmqPortScanner - MSMQ Port Scanner
-MsmqRceCve202321554Scanner - QueueJumper MSMQ RCE (CVE-2023-21554)
-RDP_Weak_Encryption_Scanner - RDP Weak Encryption Scanner
-RdpMitmScanner - RDP MiTM Vulnerability Scanner
-RdpVulnChecker - General RDP Vulnerability Checker
-SMBPasswordEncryptionScanner - SMB Password Encryption Scanner
-SMBSigningChecker - SMB Signing Enforcement Checker
-SMBv1Checker - SMBv1 Enabled Checker
-UnsupportedWindowsScanner - Unsupported/End-of-Life Windows OS Scanner
+- ActiveDirectoryUserEnumerationScanner - Active Directory User Enumeration; 
+- AnonSmbShareChecker - Anonymous SMB Share Checker;
+- BlueKeepStatusScanner - BlueKeep Vulnerability Scanner;
+- KerberosPort88Scanner - Kerberos Port 88 Scanner;
+- MS17-010Scanner - EternalBlue (MS17-010) Scanner;
+- MsmqPortScanner - MSMQ Port Scanner;
+- MsmqRceCve202321554Scanner - QueueJumper MSMQ RCE (CVE-2023-21554);
+- RDP_Weak_Encryption_Scanner - RDP Weak Encryption Scanner;
+- RdpMitmScanner - RDP MiTM Vulnerability Scanner;
+- RdpVulnChecker - General RDP Vulnerability Checker;
+- SMBPasswordEncryptionScanner - SMB Password Encryption Scanner;
+- SMBSigningChecker - SMB Signing Enforcement Checker;
+- SMBv1Checker - SMBv1 Enabled Checker;
+- UnsupportedWindowsScanner - Unsupported/End-of-Life Windows OS Scanner;
 
 ### TLS
 
-deprecated_tls_scan - Deprecated TLS/SSL Versions Scanner
-OpenSSL_CCS_MiTM_Scanner - OpenSSL CCS Injection (CVE-2014-0224)
-RC4_Nmap_Scanner - RC4 Ciphersuite Scanner
-Sweet32NmapScanner - Sweet32 (CVE-2016-2183) Scanner
-TLSDetector - General TLS Configuration Detector
+- deprecated_tls_scan - Deprecated TLS/SSL Versions Scanner;
+- OpenSSL_CCS_MiTM_Scanner - OpenSSL CCS Injection (CVE-2014-0224);
+- RC4_Nmap_Scanner - RC4 Ciphersuite Scanner;
+- Sweet32NmapScanner - Sweet32 (CVE-2016-2183) Scanner;
+- TLSDetector - General TLS Configuration Detector;
 
 ### WEB
 
-Acme_Thttpd_Scanner - Acme THTTPD Scanner
-ElasticSearch_Unauth_Scanner - Elasticsearch Unauthenticated Access
-Git_Exposure_Scanner - Exposed .git Directory Scanner
-GsoapVersionChecker - gSOAP Version Vulnerability Checker
-Http_Server_Scanner - General HTTP Server Information Scanner
-Jenkins_Unauth_Scanner - Jenkins Unauthenticated Access
-Kibana_Unauth_Scanner - Kibana Unauthenticated Access
-Oracle_WebLogic_Unsupported_Version_Scanner - Unsupported Oracle WebLogic
-Outdated_IIS_Scanner - Outdated Microsoft IIS Scanner
-Outdated_Nginx_Scanner - Outdated Nginx Scanner
-Solr_Unauth_Scanner - Apache Solr Unauthenticated Access
-TomcatVulnChecker - Apache Tomcat Vulnerability Checker
-Waf_Detector_Scanner - Web Application Firewall (WAF) Detector
+- Acme_Thttpd_Scanner - Acme THTTPD Scanner;
+- ElasticSearch_Unauth_Scanner - Elasticsearch Unauthenticated Access;
+- Git_Exposure_Scanner - Exposed .git Directory Scanner;
+- GsoapVersionChecker - gSOAP Version Vulnerability Checker;
+- Http_Server_Scanner - General HTTP Server Information Scanner;
+- Jenkins_Unauth_Scanner - Jenkins Unauthenticated Access;
+- Kibana_Unauth_Scanner - Kibana Unauthenticated Access;
+- Oracle_WebLogic_Unsupported_Version_Scanner - Unsupported Oracle WebLogic;
+- Outdated_IIS_Scanner - Outdated Microsoft IIS Scanner;
+- Outdated_Nginx_Scanner - Outdated Nginx Scanner;
+- Solr_Unauth_Scanner - Apache Solr Unauthenticated Access;
+- TomcatVulnChecker - Apache Tomcat Vulnerability Checker;
+- Waf_Detector_Scanner - Web Application Firewall (WAF) Detector;
 
 ### REMOTE-ACCESS
 
-FTP_Scanner - FTP Server Config & Anonymous Access
-OutdatedVulnerableSshScanner - Outdated & Vulnerable SSH Versions
-Rsync_Unauth_Scanner - Rsync Unauthenticated Access
-SMTP_Open_Relay_Scanner - SMTP Open Relay Configuration
-SSH_Terrapin_Scanner - Terrapin Attack (CVE-2023-48795)
-SSH_Weak_Algo_Scanner - SSH Weak Algorithms & Ciphers
-Unauthenticated_Telnet_Scanner - Telnet Unauthenticated Access
-Unencrypted_Telnet_Scanner - Unencrypted Telnet Traffic
-VNC_Unauth_Scanner - VNC Unauthenticated Access
+- FTP_Scanner - FTP Server Config & Anonymous Access;
+- OutdatedVulnerableSshScanner - Outdated & Vulnerable SSH Versions;
+- Rsync_Unauth_Scanner - Rsync Unauthenticated Access;
+- SMTP_Open_Relay_Scanner - SMTP Open Relay Configuration;
+- SSH_Terrapin_Scanner - Terrapin Attack (CVE-2023-48795);
+- SSH_Weak_Algo_Scanner - SSH Weak Algorithms & Ciphers;
+- Unauthenticated_Telnet_Scanner - Telnet Unauthenticated Access;
+- Unencrypted_Telnet_Scanner - Unencrypted Telnet Traffic;
+- VNC_Unauth_Scanner - VNC Unauthenticated Access;
 
 ### INFRASTRUCTURE
 
-CouchDB_Unauth_Scanner - CouchDB Unauthenticated Access
-DNS_Zone_Transfer_Scanner - DNS Zone Transfer (AXFR) Exposure
-Docker_API_Scanner - Exposed Docker API Scanner
-EsxiVulnScanner - VMware ESXi Vulnerability Scanner
-Hadoop_Unauth_Scanner - Hadoop Unauthenticated Access
-IPMI_Cipher_Zero_Scanner - IPMI Cipher Zero Authentication Bypass
-Java_JMX_Agent_Port_Scanner - Java JMX Agent Exposed Port
-Java_JMX_No_Authentication_Scanner - Java JMX Unauthenticated Access
-Java_RMiJmx_Exposure_Scanner - Java RMI/JMX Exposure
-Kubernetes_API_Scanner - Exposed Kubernetes API Scanner
-Memcached_Unauthenticated_Scanner - Memcached Unauthenticated Access
-MongoBleedScanner - MongoBleed Vulnerability Scanner
-NFS_Scanner - NFS Share Exposure Scanner
-RabbitMQ_Unauth_Scanner - RabbitMQ Unauthenticated Access
-Redis_Unauthenticated_Scanner - Redis Unauthenticated Access
-SNMP_Default_Community_Scanner - SNMP Default Community String (public/private)
-SqlVersionVulnChecker - SQL Server Version & Vulnerability Checker
-UnauthenticatedIscsiLoginScanner - iSCSI Unauthenticated Login
-Zookeeper_Unauth_Scanner - Apache ZooKeeper Unauthenticated Access
+- CouchDB_Unauth_Scanner - CouchDB Unauthenticated Access;
+- DNS_Zone_Transfer_Scanner - DNS Zone Transfer (AXFR) Exposure;
+- Docker_API_Scanner - Exposed Docker API Scanner;
+- EsxiVulnScanner - VMware ESXi Vulnerability Scanner;
+- Hadoop_Unauth_Scanner - Hadoop Unauthenticated Access;
+- IPMI_Cipher_Zero_Scanner - IPMI Cipher Zero Authentication Bypass;
+- Java_JMX_Agent_Port_Scanner - Java JMX Agent Exposed Port;
+- Java_JMX_No_Authentication_Scanner - Java JMX Unauthenticated Access;
+- Java_RMiJmx_Exposure_Scanner - Java RMI/JMX Exposure;
+- Kubernetes_API_Scanner - Exposed Kubernetes API Scanner;
+- Memcached_Unauthenticated_Scanner - Memcached Unauthenticated Access;
+- MongoBleedScanner - MongoBleed Vulnerability Scanner;
+- NFS_Scanner - NFS Share Exposure Scanner;
+- RabbitMQ_Unauth_Scanner - RabbitMQ Unauthenticated Access;
+- Redis_Unauthenticated_Scanner - Redis Unauthenticated Access;
+- SNMP_Default_Community_Scanner - SNMP Default Community String (public/private);
+- SqlVersionVulnChecker - SQL Server Version & Vulnerability Checker;
+- UnauthenticatedIscsiLoginScanner - iSCSI Unauthenticated Login;
+- Zookeeper_Unauth_Scanner - Apache ZooKeeper Unauthenticated Access;
 
 ### PRINTER
 
-Outdated_HP_Laser_Jet_Scanner - Outdated HP LaserJet Firmware
-PJL_Scanner - Printer Job Language (PJL) Exposure
-PrinterUnauthenticatedRshScanner - Printer Unauthenticated RSH
-PrinterWebInterfaceScanner - Printer Web Interface Exposure
-UnauthenticatedPrinterWebInterfaceScanner - Unauthenticated Printer Web Interface
+- Outdated_HP_Laser_Jet_Scanner - Outdated HP LaserJet Firmware;
+- PJL_Scanner - Printer Job Language (PJL) Exposure;
+- PrinterUnauthenticatedRshScanner - Printer Unauthenticated RSH;
+- PrinterWebInterfaceScanner - Printer Web Interface Exposure;
+- UnauthenticatedPrinterWebInterfaceScanner - Unauthenticated Printer Web Interface;
 
 ### OTHER
 
-Cookie_Security_Scanner - Insecure HTTP Cookie Configuration
-OutdatedDebianScanner - Outdated Debian OS Scanner
-Port1801OpenScanner - Open Port 1801 (MSMQ) Detector
-Security_Headers_Scanner - Missing HTTP Security Headers Scanner
+- Cookie_Security_Scanner - Insecure HTTP Cookie Configuration;
+- OutdatedDebianScanner - Outdated Debian OS Scanner;
+- Port1801OpenScanner - Open Port 1801 (MSMQ) Detector;
+- Security_Headers_Scanner - Missing HTTP Security Headers Scanner;
