@@ -7,6 +7,7 @@ A modular network security audit tool with 69 scanners, a live browser GUI, and 
 ```powershell
 python main.py
 ```
+![Screenshot 1](docs/image%201.png)
 
 Running the main script without arguments opens the graphical interface. It
 supports search/category filtering, multi-selection, target files, live
@@ -25,6 +26,8 @@ For command-line automation, use:
 python audit_tool.py run-all -- 192.0.2.10
 python audit_tool.py run-all -- -f targets.txt
 ```
+
+![Screenshot 2](docs/image%202.png)
 
 The launcher intentionally excludes `DNS_Zone_Transfer_Scanner.py` because
 AXFR requires a domain name, and excludes `read_tftp.py` because it requires
