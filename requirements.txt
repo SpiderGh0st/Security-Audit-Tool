@@ -1,0 +1,3 @@
+# Most scanners use only Python's standard library and external command-line tools.
+# Required only for scanners/read_tftp.py:
+tftpy>=0.8.2

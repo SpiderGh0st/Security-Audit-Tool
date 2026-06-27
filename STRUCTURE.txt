@@ -1,0 +1,71 @@
+security-audit-tool/
+|-- audit_tool.py             Unified catalog, launcher, validator, and doctor
+|-- gui.py                    Tkinter GUI with live output and cancellation
+|-- ACCURACY_POLICY.md        Conservative verdict and evidence rules
+|-- main.py                   Starts the interactive numbered menu
+|-- README.md                 Installation and usage guide
+|-- requirements.txt          Optional Python dependency for TFTP
+|-- STRUCTURE.txt             This directory map
+|-- TEST_REPORT.md            Verification results and environment limits
+|-- reports/                  Timestamped scanner output folders
+|-- tests/
+|   |-- test_hardening.py     False-positive and launcher regression tests
+|   `-- test_verdicts.py      Conservative verdict regression tests
+`-- scanners/                 Cleaned scanner implementations
+    |-- Acme_Thttpd_Scanner.py
+    |-- ActiveDirectoryUserEnumerationScanner.py
+    |-- data/
+    |   `-- ad_usernames.txt
+    |-- AnonSmbShareChecker.py
+    |-- BlueKeepStatusScanner.py
+    |-- Cookie_Security_Scanner.py
+    |-- DNS_Zone_Transfer_Scanner.py
+    |-- deprecated_tls_scan.py
+    |-- EsxiVulnScanner.py
+    |-- FTP_Scanner.py
+    |-- GsoapVersionChecker.py
+    |-- Http_Server_Scanner.py
+    |-- IPMI_Cipher_Zero_Scanner.py
+    |-- Java_JMX_Agent_Port_Scanner.py
+    |-- Java_JMX_No_Authentication_Scanner.py
+    |-- Java_RMiJmx_Exposure_Scanner.py
+    |-- JmxReadOnlyProbe.java
+    |-- KerberosPort88Scanner.py
+    |-- MongoBleedScanner.py
+    |-- MS17-010Scanner.py
+    |-- Memcached_Unauthenticated_Scanner.py
+    |-- MsmqPortScanner.py
+    |-- MsmqRceCve202321554Scanner.py
+    |-- NFS_Scanner.py
+    |-- OpenSSL_CCS_MiTM_Scanner.PY
+    |-- Oracle_WebLogic_Unsupported_Version_Scanner.py
+    |-- Outdated_HP_Laser_Jet_Scanner.py
+    |-- Outdated_IIS_Scanner.py
+    |-- Outdated_Nginx_Scanner.py
+    |-- OutdatedDebianScanner.py
+    |-- OutdatedVulnerableSshScanner.py
+    |-- PJL_Scanner.py
+    |-- Port1801OpenScanner.py
+    |-- PrinterUnauthenticatedRshScanner.py
+    |-- PrinterWebInterfaceScanner.py
+    |-- RC4_Nmap_Scanner.py
+    |-- RDP_Weak_Encryption_Scanner.py
+    |-- RdpMitmScanner.py
+    |-- RdpVulnChecker.py
+    |-- Redis_Unauthenticated_Scanner.py
+    |-- read_tftp.py
+    |-- SMBPasswordEncryptionScanner.py
+    |-- SMBSigningChecker.py
+    |-- SMBv1Checker.py
+    |-- Security_Headers_Scanner.py
+    |-- SNMP_Default_Community_Scanner.py
+    |-- SqlVersionVulnChecker.py
+    |-- SSH_Weak_Algo_Scanner.py
+    |-- Sweet32NmapScanner.py
+    |-- TLSDetector.py
+    |-- TomcatVulnChecker.py
+    |-- Unauthenticated_Telnet_Scanner.py
+    |-- UnauthenticatedIscsiLoginScanner.py
+    |-- UnauthenticatedPrinterWebInterfaceScanner.py
+    |-- Unencrypted_Telnet_Scanner.py
+    `-- UnsupportedWindowsScanner.py

@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# mypy cache
+.mypy_cache/
+
+# pytest cache
+.pytest_cache/
+
+# Reports (timestamped scan output - not source code)
+reports/
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# NVD cache files (generated at runtime)
+scanners/nvd_cache*.json
+
+# tftpy library (optional dependency, not bundled)
+tftpy/
