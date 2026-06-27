@@ -1,7 +1,6 @@
 # Security Audit Tool
 
-A customer-neutral, unified launcher for the cleaned Python security scanner
-collection. Use it only on systems you own or are explicitly authorized to test.
+A modular network security audit tool with 69 scanners, a live browser GUI, and a terminal console — covering Windows, TLS, web, remote access, infrastructure, and printer targets. Use it only on systems you own or are explicitly authorized to test.
 
 ## Quick start
 
